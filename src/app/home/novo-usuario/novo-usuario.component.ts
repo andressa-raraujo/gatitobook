@@ -35,7 +35,7 @@ export class NovoUsuarioComponent implements OnInit {
         password: ['', [Validators.required]],
       },
       {
-        Validators: [usuarioSenhaIguaisValidator],
+        validators: [usuarioSenhaIguaisValidator],
       }
     );
   }
